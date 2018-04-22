@@ -32,7 +32,7 @@ Http::StatusCodeString(const Http::StatusCode status)
     // 200-299
 
     case Http::scOkay:
-        return "<font color='#9933FF'>Proxy Conectado </font><a href='//t.me/InfinitySSHBR'><font color="green">PREMIUM</font></a>";
+        return "<font color='#9933FF'>Proxy Conectado </font><a href='//t.me/InfinitySSHBR'><font color='green'>PREMIUM</font></a>";
         break;
     case Http::scCreated:
         return "Criado";
@@ -76,11 +76,11 @@ Http::StatusCodeString(const Http::StatusCode status)
         break;
 	
 	case Http::scMovedPermanently:
-        return "<font color='blue'>Movido Permanentemente </font><a href='//t.me/InfinitySSHBR'><font color="green">PREMIUM</font></a>";
+        return "<font color='blue'>Movido Permanentemente </font><a href='//t.me/InfinitySSHBR'><font color='green'>PREMIUM</font></a>";
         break;
 
     case Http::scFound:
-        return "<font color='blue'>Encontrado </font><a href='//t.me/InfinitySSHBR'><font color="green">PREMIUM</font></a>";
+        return "<font color='blue'>Encontrado </font><a href='//t.me/InfinitySSHBR'><font color='green'>PREMIUM</font></a>";
         break;
 
     case Http::scSeeOther:
@@ -92,7 +92,7 @@ Http::StatusCodeString(const Http::StatusCode status)
         break;
 
     case Http::scUseProxy:
-        return "<font color='red'>Proxy Detectado </font><a href='//t.me/InfinitySSHBR'><font color="green">PREMIUM</font></a>";
+        return "<font color='red'>Proxy Detectado </font><a href='//t.me/InfinitySSHBR'><font color='green'>PREMIUM</font></a>";
         break;
 
     case Http::scTemporaryRedirect:
@@ -117,7 +117,7 @@ Http::StatusCodeString(const Http::StatusCode status)
         break;
 
     case Http::scForbidden:
-        return "<font color='red'>Conexão ao servidor SSH recusada </font><a href='//t.me/InfinitySSHBR'><font color="green">PREMIUM</font></a>";
+        return "<font color='red'>Conexão ao servidor SSH recusada </font><a href='//t.me/InfinitySSHBR'><font color='green'>PREMIUM</font></a>";
         break;
 
     case Http::scNotFound:
@@ -133,7 +133,7 @@ Http::StatusCodeString(const Http::StatusCode status)
         break;
 
     case Http::scProxyAuthenticationRequired:
-        return "<font color='red'>O Proxy requer autenticação </font><a href='//t.me/InfinitySSHBR'><font color="green">PREMIUM</font></a>";
+        return "<font color='red'>O Proxy requer autenticação </font><a href='//t.me/InfinitySSHBR'><font color='green'>PREMIUM</font></a>";
         break;
 
     case Http::scRequestTimeout:
@@ -214,34 +214,34 @@ Http::StatusCodeString(const Http::StatusCode status)
 
     // 500-599
     case Http::scInternalServerError:
-        return "<font color='red'>Erro Interno no Servidor </font><a href='//t.me/InfinitySSHBR'><font color="green">PREMIUM</font></a>";
+        return "<font color='red'>Erro Interno no Servidor </font><a href='//t.me/InfinitySSHBR'><font color='green'>PREMIUM</font></a>";
         break;
 
     case Http::scNotImplemented:
-        return "<font color='red'>Nâo Disponível </font><a href='//t.me/InfinitySSHBR'><font color="green">PREMIUM</font></a>";
+        return "<font color='red'>Nâo Disponível </font><a href='//t.me/InfinitySSHBR'><font color='green'>PREMIUM</font></a>";
         break;
 
     case Http::scBadGateway:
-        return "<font color='red'>Erro na Gateway </font><a href='//t.me/InfinitySSHBR'><font color="green">PREMIUM</font></a>";
+        return "<font color='red'>Erro na Gateway </font><a href='//t.me/InfinitySSHBR'><font color='green'>PREMIUM</font></a>";
         break;
 
     case Http::scServiceUnavailable:
-        return "<font color='red'>Serviço Indisponível </font><a href='//t.me/InfinitySSHBR'><font color="green">PREMIUM</font></a>";
+        return "<font color='red'>Serviço Indisponível </font><a href='//t.me/InfinitySSHBR'><font color='green'>PREMIUM</font></a>";
         break;
 
     case Http::scGatewayTimeout:
-        return "<font color='red'>Gateway Offline </font><a href='//t.me/InfinitySSHBR'><font color="green">PREMIUM</font></a>";
+        return "<font color='red'>Gateway Offline </font><a href='//t.me/InfinitySSHBR'><font color='green'>PREMIUM</font></a>";
         break;
 
     case Http::scHttpVersionNotSupported:
-        return "<font color='orange'>Versão HTTP não suportada </font><a href='//t.me/InfinitySSHBR'><font color="green">PREMIUM</font></a>";
+        return "<font color='orange'>Versão HTTP não suportada </font><a href='//t.me/InfinitySSHBR'><font color='green'>PREMIUM</font></a>";
         break;
     case Http::scVariantAlsoNegotiates:
         return "Variant Also Negotiates";
         break;
 
     case Http::scInsufficientStorage:
-        return "<font color='red'>Armazenamento Cheio </font><a href='//t.me/InfinitySSHBR'><font color="green">PREMIUM</font></a>";
+        return "<font color='red'>Armazenamento Cheio </font><a href='//t.me/InfinitySSHBR'><font color='green'>PREMIUM</font></a>";
         break;
 
     case Http::scLoopDetected:
@@ -253,7 +253,7 @@ Http::StatusCodeString(const Http::StatusCode status)
         break;
 
     case Http::scNetworkAuthenticationRequired:
-        return "<font color='blue'>A Rede requer Autenticação </font><a href='//t.me/InfinitySSHBR'><font color="green">PREMIUM</font></a>";
+        return "<font color='blue'>A Rede requer Autenticação </font><a href='//t.me/InfinitySSHBR'><font color='green'>PREMIUM</font></a>";
         break;
     // 600+
     case Http::scInvalidHeader:
